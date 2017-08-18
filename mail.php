@@ -13,7 +13,7 @@ $tel = $_POST["tel"];
 
 
 // From
-$recipient = "josh.nattrass@gmail.com";
+$recipient = "ryssslan@ukr.net";
 
 
 if (empty($name) || empty($tel)) {
@@ -24,7 +24,7 @@ if (empty($name) || empty($tel)) {
 
 // PHPMailer
   $mail = new PHPMailer;
-  $mail->From = 'josh.nattrass@gmail.com';
+  $mail->From = 'ryssslan@ukr.net';
   $mail->FromName = $name;
   $mail->AddAddress($recipient);
   $mail->Subject = 'Subject';
